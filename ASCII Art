@@ -1,0 +1,42 @@
+/**
+ * Write a description of class Picture here.
+ *
+ * @author (Garrison Phillips)
+ * @version (Oct. 4, 2018)
+ */
+public class Picture
+{
+    public static void main(String[ ] args)
+    {
+        //declaration of specific rows
+        String row1 = "______________________";
+        String row2 = "|  |   |   |**********|";
+        String row3 = "|  |   |   |**********|";
+        String row4 = "|  |   |   |**********|";
+        String row5 = "|  |   |   |**********|";
+        String row6 = "|  |   |   |**********|";
+        String row7 = "|  |   |   |**********|";
+        String row8 = "|  |   |   |__________|"; 
+        String row9 = "|  |   |   |   |   |  |"; 
+        String row10 = "|  |   |   |   |   |  |"; 
+        String row11 = "|  |   |   |   |   |  |";
+        String row12 = "|  |   |   |   |   |  |";
+        String row13 = "|  |   |   |   |   |  |";
+        String row14 = "|__|___|___|___|___|__|";
+        
+        String sigNature = "Garrison L. Phillips";
+        
+        //declaration of rows to draw picture
+        System.out.print("\n1 = " + row1 + "\n2 = " + row2);
+        System.out.print("\n3 = " + row3 + "\n4 = " + row4);
+        System.out.print("\n5 = " + row5 + "\n6 = " + row6);
+        System.out.print("\n7 = " + row7 + "\n8 = " + row8);
+        System.out.print("\n9 = " + row9 + "\n1 = " + row10);
+        System.out.print("\n2 = " + row11 + "\n3 = " + row12);
+        System.out.print("\n4 = " + row13 + "\n5 = " + row14 + "\n");
+        System.out.print("\n" + sigNature);
+    
+    
+    
+    }
+}
